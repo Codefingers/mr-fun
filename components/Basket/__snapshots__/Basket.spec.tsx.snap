@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Basket /> renders 1`] = `
+<div>
+  <div
+    class="Basket__BasketContainer-sc-kcuzmw-0 eRChUV"
+  >
+    <h2>
+      Your Basket
+    </h2>
+    <p>
+      You're currently looking at purchasing the following passes:
+    </p>
+    <div />
+    <div
+      class="Total__TotalContainer-sc-149mlyd-0 kkKrkF"
+    >
+      <h2>
+        Total: 
+        £0
+      </h2>
+    </div>
+  </div>
+</div>
+`;

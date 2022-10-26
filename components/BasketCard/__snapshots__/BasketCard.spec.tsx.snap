@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BasketCard /> renders 1`] = `
+<div>
+  <div
+    style="padding-top: 24px; position: relative;"
+  >
+    <h3>
+      Party Pass
+    </h3>
+    <p>
+      Cost: £
+      100
+    </p>
+    <p>
+      Quantity: 
+      1
+    </p>
+    <button
+      style="position: absolute; right: 0px; top: 50%; transform: translateY(-50%);"
+    >
+      Remove
+    </button>
+  </div>
+</div>
+`;
