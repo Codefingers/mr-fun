@@ -1,6 +1,7 @@
 import React, { useState, Component } from 'react';
 import styled from 'styled-components';
 
+import { useBasket } from '../../hooks/useBasket';
 import { Product } from '../../types';
 
 const TListC = styled.div`
@@ -34,6 +35,7 @@ const TicketCardContainer = styled.div`
 
 export const TicketCard: React.FC<{ product: Product }> = (props) => {
   const [active, setActive] = useState<boolean>();
+  const { addToBasket } = useBasket();
   const {
     product: { id, title, price },
   } = props;
@@ -43,6 +45,7 @@ export const TicketCard: React.FC<{ product: Product }> = (props) => {
     <TicketCardContainer
       className={activeClass}
       onClick={() => {
+        addToBasket({ id, title, price });
         setActive(true);
       }}
     >

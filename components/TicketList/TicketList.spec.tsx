@@ -2,6 +2,17 @@ import React from 'react';
 import { screen, render, fireEvent } from '../../util/testing';
 
 import { TicketList, TicketCard } from './TicketList';
+import { useBasket } from '../../hooks/useBasket';
+
+jest.mock('../../hooks/useBasket', () => {
+  const addToBasket = jest.fn();
+
+  return {
+    useBasket: jest.fn(() => ({
+      addToBasket,
+    })),
+  };
+});
 
 describe('<TicketList />', () => {
   const props = {
@@ -44,7 +55,10 @@ describe('<TicketCard />', () => {
   });
 
   it('calls addToBasket with product info', () => {
+    const { addToBasket } = useBasket();
     render(<TicketCard {...props} />);
     fireEvent.click(screen.getByText(/Product 1/i));
+
+    expect(addToBasket).toHaveBeenCalledTimes(1);
   });
 });

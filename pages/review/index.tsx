@@ -5,6 +5,7 @@ import { useQuery } from '@apollo/client';
 
 import Basket from '../../components/Basket/Basket';
 import TicketList from '../../components/TicketList/TicketList';
+import { BasketProvider } from '../../hooks/useBasket';
 
 const ReviewContainer = styled.div`
   display: flex;
@@ -38,12 +39,14 @@ const Review = () => {
   const { Products, title } = data?.Campaign;
 
   return (
+    <BasketProvider>
       <ReviewContainer>
         <TicketList key="listings" title={title} products={Products || []} />
         {/* <div className="basket"> */}
           <Basket />
         {/* </div> */}
       </ReviewContainer>
+    </BasketProvider>
   );
 };
 
