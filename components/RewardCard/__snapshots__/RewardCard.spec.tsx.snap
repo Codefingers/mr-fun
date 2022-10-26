@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RewardCard /> Should render without having an existential crisis 1`] = `
+<div>
+  <div
+    class="sc-bdVaJa jcXhbk"
+  >
+    <h2>
+      __TEST_REWARD_NAME__
+    </h2>
+    <img
+      alt=""
+      src="__TEST_IMAGE_URL__"
+    />
+    <p>
+      __TEST_DESCRIPTION__
+    </p>
+  </div>
+</div>
+`;

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Nav /> renders 1`] = `
+<div>
+  <ul
+    class="Nav__NavContainer-sc-1gxm0jw-0 hppfIP"
+  >
+    <li>
+      <a
+        href="/review"
+      >
+        Part 1: Review
+      </a>
+    </li>
+    <li>
+      <a
+        href="/task"
+      >
+        Part 2: Task
+      </a>
+    </li>
+  </ul>
+</div>
+`;

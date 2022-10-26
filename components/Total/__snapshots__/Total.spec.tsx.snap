@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Total /> renders with correct total 1`] = `
+<div>
+  <div
+    class="Total__TotalContainer-sc-149mlyd-0 kkKrkF"
+  >
+    <h2>
+      Total: 
+      £32.4
+    </h2>
+  </div>
+</div>
+`;

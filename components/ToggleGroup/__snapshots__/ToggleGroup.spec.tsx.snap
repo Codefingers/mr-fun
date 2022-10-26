@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ToggleGroup /> Should render without having an existential crisis 1`] = `
+<div>
+  <div
+    dir="ltr"
+    role="group"
+    style="outline: none;"
+    tabindex="0"
+  >
+    <button
+      aria-checked="false"
+      class="sc-bdVaJa dWTxhh"
+      data-radix-collection-item=""
+      data-state="off"
+      role="radio"
+      tabindex="-1"
+      type="button"
+    >
+      _TEST_VALUE_1_
+    </button>
+    <button
+      aria-checked="false"
+      class="sc-bdVaJa dWTxhh"
+      data-radix-collection-item=""
+      data-state="off"
+      role="radio"
+      tabindex="-1"
+      type="button"
+    >
+      _TEST_VALUE_2_
+    </button>
+    <button
+      aria-checked="false"
+      class="sc-bdVaJa dWTxhh"
+      data-radix-collection-item=""
+      data-state="off"
+      role="radio"
+      tabindex="-1"
+      type="button"
+    >
+      _TEST_VALUE_3_
+    </button>
+  </div>
+</div>
+`;

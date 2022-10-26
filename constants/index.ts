@@ -1,0 +1,1 @@
+export const LIST_MUTATION_KEYS = ['quantity', 'points', 'capPerReviewifyMember']

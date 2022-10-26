@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TicketCard /> renders 1`] = `
+<div>
+  <div
+    class="card TicketList__TicketCardContainer-sc-sf3b3b-1 fCyvOu"
+  >
+    <h3>
+      Product 1
+    </h3>
+    <p>
+      £
+      10
+    </p>
+    <button>
+      Add to Basket
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<TicketList /> renders 1`] = `
+<div>
+  <div
+    class="TicketList__TListC-sc-sf3b3b-0 ciLCpI"
+  >
+    <h1>
+      What passes will you need?
+    </h1>
+    <h2>
+      test title
+    </h2>
+    <div>
+      <div>
+        <div
+          class="card TicketList__TicketCardContainer-sc-sf3b3b-1 fCyvOu"
+        >
+          <h3>
+            prod 1
+          </h3>
+          <p>
+            £
+            10
+          </p>
+          <button>
+            Add to Basket
+          </button>
+        </div>
+      </div>
+      <div>
+        <div
+          class="card TicketList__TicketCardContainer-sc-sf3b3b-1 fCyvOu"
+        >
+          <h3>
+            prod 2
+          </h3>
+          <p>
+            £
+            12.4
+          </p>
+          <button>
+            Add to Basket
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

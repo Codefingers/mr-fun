@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RewardsList /> Should render without having an existential crisis 1`] = `
+<div>
+  <div
+    class="sc-ifAKCX bTNgqR"
+  >
+    <span
+      class="sc-htpNat hdiYuO"
+      id="radix-0"
+      role="label"
+    >
+      Sort Rewards
+    </span>
+    <div
+      dir="ltr"
+      role="group"
+      style="outline: none;"
+      tabindex="0"
+    >
+      <button
+        aria-checked="false"
+        class="sc-bwzfXH mLdsH"
+        data-radix-collection-item=""
+        data-state="off"
+        role="radio"
+        tabindex="-1"
+        type="button"
+      >
+        quantity
+      </button>
+      <button
+        aria-checked="false"
+        class="sc-bwzfXH mLdsH"
+        data-radix-collection-item=""
+        data-state="off"
+        role="radio"
+        tabindex="-1"
+        type="button"
+      >
+        points
+      </button>
+      <button
+        aria-checked="false"
+        class="sc-bwzfXH mLdsH"
+        data-radix-collection-item=""
+        data-state="off"
+        role="radio"
+        tabindex="-1"
+        type="button"
+      >
+        capPerReviewifyMember
+      </button>
+    </div>
+  </div>
+  <div
+    class="sc-EHOje jcYroV"
+    data-orientation="horizontal"
+    role="none"
+  />
+  <ul
+    class="sc-bxivhb kkLDcn"
+  >
+    <li>
+      <div
+        class="sc-bdVaJa jcXhbk"
+      >
+        <h2>
+          __TEST_REWARD_NAME_1__
+        </h2>
+        <img
+          alt=""
+          src="__TEST_IMAGE_URL_1__"
+        />
+        <p>
+          __TEST_DESCRIPTION_1__
+        </p>
+      </div>
+    </li>
+    <li>
+      <div
+        class="sc-bdVaJa jcXhbk"
+      >
+        <h2>
+          __TEST_REWARD_NAME_2__
+        </h2>
+        <img
+          alt=""
+          src="__TEST_IMAGE_URL_2__"
+        />
+        <p>
+          __TEST_DESCRIPTION_2__
+        </p>
+      </div>
+    </li>
+    <li>
+      <div
+        class="sc-bdVaJa jcXhbk"
+      >
+        <h2>
+          __TEST_REWARD_NAME_3__
+        </h2>
+        <img
+          alt=""
+          src="__TEST_IMAGE_URL_3__"
+        />
+        <p>
+          __TEST_DESCRIPTION_3__
+        </p>
+      </div>
+    </li>
+  </ul>
+</div>
+`;
